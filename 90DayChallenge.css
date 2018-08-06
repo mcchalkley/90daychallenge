@@ -3,11 +3,25 @@
 }
 
 
+body {
+    font-family: arial, Helvetica, sans-serif
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1f2f4;
+
+}
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+}
+
+.date {
+    margin-bottom: 70px;
+    font-size: 12px;
 }
 
 ul {
@@ -26,17 +40,17 @@ ul {
 }
 
 header {
-    background: #2c333a;
-    color: royalblue;
+    background: linear-gradient(to bottom right, #20b2aa, #00bfff);
+    color: #ff4500;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: royalblue 3px solid;
+    border-bottom: #ff4500 3px solid;
 }
 
 header a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
@@ -52,7 +66,7 @@ header #branding {
 
 header #branding h1 {
     margin: 0px;
-    font-size: 32px;
+    font-size: 75px;
 }
 
 header nav {
@@ -66,12 +80,12 @@ header .highlight {
 }
 
 header .current a {
-    color: royalblue;
+    color: #191970;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #ffa333;
+    color: #ff4500;
     font-weight: bold;
 }
 
@@ -81,17 +95,21 @@ header a:hover {
 /* Left column */
 .jacob {
     float: left;
-    background-color: #ffddb3;
-    padding-left: 20px;
-    width: 45%;
+    padding-left: 0px;
+    width: 48%;
+    color: black;
 }
 
-.jacob img {
-    padding-top: 30px;
+.jacobbio {
+    padding: 0px;
+    margin: 0px;
 }
 
 .jacob h1 {
-    font-size: 40px;
+    font-size: 60px;
+    color: #ff4500;
+    margin: 0px;
+    text-shadow: 5px 3px 8px black;
 }
 
 .jacob h3 {
@@ -102,21 +120,88 @@ header a:hover {
     font-size: 20px;
 }
 
+.jacob p {
+    color: black;
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding-top: 0px;
+    font-weight: bold;
+    
+}
+
+.jacobone {
+    background: linear-gradient(to bottom right, #20b2aa, #00bfff);
+    padding: 20px;
+    color: white;
+    border-color: #ff4500;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.jacobone h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 3px #ff4500;
+}
+
+.jacobone li {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.jacobtwo {
+    background-color: #e2e6e9;
+    padding: 20px;
+    color: black;
+    margin-top: 25px;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+.jacobthree {
+    background-color: #e2e6e9;
+    padding: 25px;
+    color: black;
+    margin-top: 15px;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+
+
+
 
 /* Left column */
 .michael {
     float: right;
-    background-color: #99ccff;
-    padding-left: 20px;
-    width: 45%;
+    width: 48%;
+    color: white;
+    
+}
+
+.michaelbio {
+    padding: 0px;
+    margin: 0px;
+    
+  
 }
 
 .michael img {
-    padding-top: 30px;
+    padding-top: 0px;
+    
 }
 
 .michael h1 {
-    font-size: 40px;
+    font-size: 60px;
+    color: #20b2aa;
+    margin: 0px;
+    text-shadow: 5px 3px 8px black;
 }
 
 .michael h3 {
@@ -127,42 +212,60 @@ header a:hover {
     font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#newsletter {
-    padding: 15px;
+.michael p {
     color: black;
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding-top: 0px;
+    font-weight: bold;
     
 }
 
-#newsletter h1 {
-    float:left;
+
+.michaelone {
+    background: linear-gradient(to bottom right, #20b2aa, #00bfff);
+    padding: 20px;
+    color: white;
+    border-color: #ff4500;
+    border-style: solid;
+    border-width: 10px;
 }
 
-#newsletter form {
-    float:left;
+.michaelone h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 3px #ff4500;
+}
+
+.michaelone li {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+.michaeltwo {
+    background-color: #e2e6e9;
+    padding: 20px;
+    color: black;
+    margin-top: 25px;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+.michaelthree {
+    background-color: #e2e6e9;
+    padding: 25px;
+    color: black;
     margin-top: 15px;
-    padding-left: 60px;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 4px;
 }
 
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 25px;
-    width: 275px;
-}
 
 
 
@@ -175,13 +278,6 @@ footer {
     text-align: center;
     
 }
-
-
-
-
-
-
-
 
 
 
@@ -199,8 +295,6 @@ footer {
     display: table;
     clear: both;
 }
-
-
 
 
 
